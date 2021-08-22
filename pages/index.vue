@@ -67,6 +67,18 @@
           </a>
         </div>
       </section>
+      <section>
+        <div class="main-page_about_forwhom">
+          <h3 class="main-page_about_forwhom_t">Katta helps people save money and live better.</h3>
+          <p>It's easy to use our market if:</p>
+          <ul>
+            <li>You are curious person and wants to try new;</li>
+            <li>You want to be flexible;</li>
+            <li>You want to save your time;</li>
+            <li>We have no closing hours;</li>
+          </ul>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -178,4 +190,26 @@ export default {}
             color: #ffffff
             svg
               fill: #ffffff
+    &_forwhom
+      width: 100%
+      max-width: 700px
+      padding: 50px 60px
+      font-size: 15px
+      &_t
+        font-size: 38px
+        font-weight: 400
+        letter-spacing: -1px
+        line-height: 1em
+        margin-bottom: 30px
+      ul
+        padding: 0 0 0 26px
+        li
+          position: relative
+          list-style-type: none
+          margin: 0 0 20px
+          &:before
+            content: "—"
+            position: absolute
+            top: 0
+            left: -25px
 </style>

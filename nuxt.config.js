@@ -1,4 +1,8 @@
 export default {
+  mode: 'spa',
+  router: {
+    base: '/nuxt-gh-pages'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'online-shop-nuxt',

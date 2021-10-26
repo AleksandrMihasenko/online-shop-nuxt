@@ -107,6 +107,17 @@
         </div>
         <span class="main-page_more-info_subt __bottom">...and start to use now.</span>
       </section>
+      <footer>
+        <div class="footer_top">
+          <h3 class="footer_top_t">
+            <span class="footer_top_subt">KATTA good living.</span> <br>
+            Your shopping, picked personally!
+          </h3>
+        </div>
+        <div class="footer_bottom">
+          &copy; Saint Petersburg 2021
+        </div>
+      </footer>
     </div>
   </div>
 </template>
@@ -278,4 +289,14 @@ export default {}
         &_tx
           font-size: 16px
           line-height: 1.4
+  footer
+    padding: 50px 50px 10px
+    background-color: #00466e
+    color: #ffffff
+    .footer
+      &_top
+        display: flex
+      &_bottom
+        margin-top: 50px
+        text-align: center
 </style>
